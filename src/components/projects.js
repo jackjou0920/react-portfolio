@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LineIcon from 'react-lineicons';
+import w1 from '../images/w-1.jpg'
 import '.././App.css';
 
 class Projects extends Component {
@@ -19,13 +20,13 @@ class Projects extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-project text-center mt-30">
                                 <div className="project-image">
-                                    <img src="images/w-1.jpg" alt="project"/>
+                                    <img src={w1} alt="project"/>
                                 </div>
                                 <div className="project-overlay">
                                     <div className="project-content">
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
-                                            <li><a className="image-popup" href="images/w-1.jpg"><LineIcon className="lni lni-plus"/></a></li>
+                                            <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
                                             <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
@@ -35,13 +36,13 @@ class Projects extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-project text-center mt-30">
                                 <div className="project-image">
-                                    <img src="images/w-1.jpg" alt="project"/>
+                                    <img src={w1} alt="project"/>
                                 </div>
                                 <div className="project-overlay">
                                     <div className="project-content">
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
-                                            <li><a className="image-popup" href="images/w-1.jpg"><LineIcon className="lni lni-plus"/></a></li>
+                                            <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
                                             <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
@@ -51,13 +52,13 @@ class Projects extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-project text-center mt-30">
                                 <div className="project-image">
-                                    <img src="images/w-1.jpg" alt="project"/>
+                                    <img src={w1} alt="project"/>
                                 </div>
                                 <div className="project-overlay">
                                     <div className="project-content">
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
-                                            <li><a className="image-popup" href="images/w-1.jpg"><LineIcon className="lni lni-plus"/></a></li>
+                                            <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
                                             <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
@@ -67,13 +68,13 @@ class Projects extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-project text-center mt-30">
                                 <div className="project-image">
-                                    <img src="images/w-1.jpg" alt="project"/>
+                                    <img src={w1} alt="project"/>
                                 </div>
                                 <div className="project-overlay">
                                     <div className="project-content">
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
-                                            <li><a className="image-popup" href="images/w-1.jpg"><LineIcon className="lni lni-plus"/></a></li>
+                                            <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
                                             <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
@@ -83,13 +84,13 @@ class Projects extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-project text-center mt-30">
                                 <div className="project-image">
-                                    <img src="images/w-1.jpg" alt="work"/>
+                                    <img src={w1} alt="work"/>
                                 </div>
                                 <div className="project-overlay">
                                     <div className="project-content">
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
-                                            <li><a className="image-popup" href="images/w-1.jpg"><LineIcon className="lni lni-plus"/></a></li>
+                                            <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
                                             <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
@@ -99,13 +100,13 @@ class Projects extends Component {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-project text-center mt-30">
                                 <div className="project-image">
-                                    <img src="images/w-1.jpg" alt="project"/>
+                                    <img src={w1} alt="project"/>
                                 </div>
                                 <div className="project-overlay">
                                     <div className="project-content">
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
-                                            <li><a className="image-popup" href="images/w-1.jpg"><LineIcon className="lni lni-plus"/></a></li>
+                                            <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
                                             <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>

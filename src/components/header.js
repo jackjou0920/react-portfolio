@@ -59,7 +59,7 @@ class Header extends Component {
                                     <ul className="navbar-nav ml-auto" >
                                         <li className="nav-item active"><a className="page-scroll" onClick={this.mobileMenu.bind(this)} href="#home" >Home</a></li>
                                         <li className="nav-item"><a className="page-scroll" onclick={this.mobileMenu.bind(this)} href="#about">About</a></li>
-                                        <li className="nav-item"><a className="page-scroll" onclick={this.mobileMenu.bind(this)} href="#skills">Skills</a></li>
+                                        <li className="nav-item"><a className="page-scroll" onclick={this.mobileMenu.bind(this)} href="#timeline">Timeline</a></li>
                                         <li className="nav-item"><a className="page-scroll" onclick={this.mobileMenu.bind(this)} href="#projects">Projects</a></li>
                                         <li className="nav-item"><a className="page-scroll" onclick={this.mobileMenu.bind(this)} href="#contact">Contact</a></li>
                                     </ul>

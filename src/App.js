@@ -4,7 +4,7 @@ import $ from 'jquery';
 import Header from './components/header';
 import Home from './components/home';
 import About from './components/about';
-import Skills from './components/skills';
+import Timeline from './components/timeline';
 import Travelling from './components/travelling';
 import Projects from './components/projects';
 import Contact from './components/contact';
@@ -68,7 +68,7 @@ class App extends Component {
         </header>
       
         <About/>
-        <Skills/>
+        <Timeline/>
         <Travelling/>
         <Projects/>
         <Contact/>
