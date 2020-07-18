@@ -34,12 +34,6 @@ class Header extends Component {
         $(".navbar-toggler").toggleClass('active');
     }
 
-    mobileMenu = () => {
-        console.log("11234567890")
-        // $(".navbar-toggler").removeClass('active');
-        // $(".navbar-collapse").removeClass("show");
-    }
-
     render() {
         return ( 
             <div className="navigation fixed-top">
@@ -57,11 +51,11 @@ class Header extends Component {
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav ml-auto" >
-                                        <li className="nav-item active"><a className="page-scroll" onClick={this.mobileMenu.bind(this)} href="#home" >Home</a></li>
-                                        <li className="nav-item"><a className="page-scroll" onclick={this.mobileMenu.bind(this)} href="#about">About</a></li>
-                                        <li className="nav-item"><a className="page-scroll" onclick={this.mobileMenu.bind(this)} href="#timeline">Timeline</a></li>
-                                        <li className="nav-item"><a className="page-scroll" onclick={this.mobileMenu.bind(this)} href="#projects">Projects</a></li>
-                                        <li className="nav-item"><a className="page-scroll" onclick={this.mobileMenu.bind(this)} href="#contact">Contact</a></li>
+                                        <li className="nav-item active"><a className="page-scroll" href="#home" >Home</a></li>
+                                        <li className="nav-item"><a className="page-scroll" href="#about">About</a></li>
+                                        <li className="nav-item"><a className="page-scroll" href="#timeline">Timeline</a></li>
+                                        <li className="nav-item"><a className="page-scroll" href="#projects">Projects</a></li>
+                                        <li className="nav-item"><a className="page-scroll" href="#contact">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>

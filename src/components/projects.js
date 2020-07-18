@@ -27,7 +27,7 @@ class Projects extends Component {
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
                                             <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
-                                            <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
+                                            <li><a href="!#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@ class Projects extends Component {
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
                                             <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
-                                            <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
+                                            <li><a href="!#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@ class Projects extends Component {
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
                                             <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
-                                            <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
+                                            <li><a href="!#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@ class Projects extends Component {
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
                                             <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
-                                            <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
+                                            <li><a href="!#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@ class Projects extends Component {
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
                                             <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
-                                            <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
+                                            <li><a href="!#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@ class Projects extends Component {
                                         <h3 className="project-title">Product Design</h3>
                                         <ul>
                                             <li><a className="image-popup" href={w1}><LineIcon className="lni lni-plus"/></a></li>
-                                            <li><a href="#"><LineIcon className="lni lni-link"/></a></li>
+                                            <li><a href="!#"><LineIcon className="lni lni-link"/></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ class Projects extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="project-more text-center mt-50">
-                                <a className="main-btn" href="#">more projects</a>
+                                <a className="main-btn" href="!#">more projects</a>
                             </div>
                         </div>
                     </div>

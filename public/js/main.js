@@ -57,10 +57,10 @@
         },{accY: 0});
     }
     // Counter Up
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1600,
-    });
+    // $('.counter').counterUp({
+    //     delay: 10,
+    //     time: 1600,
+    // });
     
     // Magnific Popup
     $('.image-popup').magnificPopup({

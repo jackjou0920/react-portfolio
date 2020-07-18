@@ -76,6 +76,13 @@ p {
     p {
       font-size: 15px; } }
 
+#bg {
+  background: url(./images/background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;}
+
 .bg_cover {
   background-position: center center;
   background-size: cover;
@@ -688,7 +695,7 @@ p {
   font-size: 16px;
   color: #b1b493; }
 .about-content .single-info .info-text {
-  padding-left: 13px; }
+  padding-left: 12px; }
   .about-content .single-info .info-text p span {
     color: #32333c; }
 

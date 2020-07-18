@@ -20,7 +20,7 @@ class Home extends Component {
     render() {
         const idx = this.getImageIndex();
         return (
-            <div id="parallax" className="header-content d-flex align-items-center">            
+            <div id="bg" className="header-content d-flex align-items-center">            
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-5 col-lg-6">
@@ -28,10 +28,10 @@ class Home extends Component {
                                 <h4 className="sub-title">Hello, I’m</h4>
                                 <h1 className="title">Dan-Haur Jou</h1>
                                 <p>A Research & Development Engineer</p>
-                                <a className="main-btn" href="#" onClick={this.setImageIndex}>Download CV</a>
+                                <a className="main-btn" href="!#" onClick={this.setImageIndex}>Download CV</a>
                             </div>
                         </div>
-                        <div className="col-lg-6 offset-xl-1">
+                        <div className="col-xl-6 offset-xl-1 col-lg-6">
                             <div className="header-image d-none d-lg-block">
                                 <img src={imageSrc[idx]} alt="portfolio"/>
                             </div>
@@ -45,10 +45,10 @@ class Home extends Component {
                             <div className="col-lg-12">
                                 <div className="header-social-icon">
                                     <ul>
-                                        <li><a href="#" onClick={this.mobileMenu}><LineIcon className="lni lni-facebook-filled"/></a></li>
-                                        <li><a href="#"><LineIcon className="lni lni-instagram-original"/></a></li>
-                                        <li><a href="#"><LineIcon className="lni lni-linkedin-original"/></a></li>
-                                        <li><a href="#"><LineIcon className="lni lni-github-original"/></a></li>
+                                        <li><a href="!#" onClick={this.mobileMenu}><LineIcon className="lni lni-facebook-filled"/></a></li>
+                                        <li><a href="!#"><LineIcon className="lni lni-instagram-original"/></a></li>
+                                        <li><a href="!#"><LineIcon className="lni lni-linkedin-original"/></a></li>
+                                        <li><a href="!#"><LineIcon className="lni lni-github-original"/></a></li>
                                     </ul>
                                 </div>
                             </div>
